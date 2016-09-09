@@ -49,6 +49,16 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlazeServer.Common\BlazeServer.Common.csproj">
+      <Project>{e5115124-3e4f-4794-80b9-770bf596bb54}</Project>
+      <Name>BlazeServer.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BlazeServer.Core\BlazeServer.Core.csproj">
+      <Project>{ad1106a5-bad8-4ab3-b087-f6d41cbc6f6d}</Project>
+      <Name>BlazeServer.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
